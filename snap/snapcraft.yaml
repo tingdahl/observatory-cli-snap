@@ -1,4 +1,7 @@
-name: tingdahl-observatory
+# Copyright (C) 2022 - : Kristofer Tingdahl
+# Licensed under the Mozilla public license 2.0
+
+name: tingdahl-observatory-cli
 base: core20 # the base snap is the execution environment for this snap
 summary: Score your site's HTTPS practices
 version: git
@@ -8,7 +11,7 @@ description: |
   as a part of the build and release process.
 
 grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+confinement: strict # use 'strict' once you have the right plugs and slots
 
 parts:
   observatory:
