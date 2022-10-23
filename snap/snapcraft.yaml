@@ -4,6 +4,7 @@
 name: tingdahl-observatory-cli
 title: Observatory-cli
 license: MPL-2.0
+website: https://github.com/mozilla/observatory-cli
 base: core20 # the base snap is the execution environment for this snap
 summary: Score your site's HTTPS practices
 version: git
