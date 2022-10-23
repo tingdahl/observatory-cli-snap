@@ -2,6 +2,8 @@
 # Licensed under the Mozilla public license 2.0
 
 name: tingdahl-observatory-cli
+title: Observatory-cli
+license: MPL-2.0
 base: core20 # the base snap is the execution environment for this snap
 summary: Score your site's HTTPS practices
 version: git
